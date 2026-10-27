@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "kuro",
+  "version": "1.0",
+  "name": "Kuro",
+  "description": "Client-side utility mod with a draggable-window GUI.",
+  "icon": "assets/kuro/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.kuro.client.KuroClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "kuro.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

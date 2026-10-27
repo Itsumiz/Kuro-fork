@@ -1,0 +1,36 @@
+{
+  "required": true,
+  "package": "dev.kuro.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "CameraMixin",
+    "EntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "InteractionManagerInvoker",
+    "KeyBindingMixin",
+    "PlayerEntityMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientCommonNetworkHandlerMixin",
+    "SkyRenderingMixin",
+    "CloudRendererMixin",
+    "FogRendererMixin",
+    "MinecraftClientAccessor",
+    "LivingEntityAccessor",
+    "ClientPlayerEntityMixin",
+    "TextVisitFactoryMixin",
+    "ItemInHandRendererMixin",
+    "ProjectileUtilMixin",
+    "NametagMixin",
+    "ChatComponentMixin",
+    "SilentModelMixin",
+    "EchoMouseHandlerMixin",
+    "EchoMinecraftMixin",
+    "EchoKeyMappingAccessor",
+    "GameRendererMixin",
+    "ZoomMouseMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "kuro.refmap.json"
+}

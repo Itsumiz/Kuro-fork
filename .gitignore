@@ -1,0 +1,20 @@
+.gradle/
+build/
+out/
+bin/
+run/
+runs/
+.fabric/
+logs/
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar

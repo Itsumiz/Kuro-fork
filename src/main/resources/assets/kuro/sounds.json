@@ -1,0 +1,371 @@
+{
+  "alert": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:alert",
+        "stream": false
+      }
+    ]
+  },
+  "hit_skeet": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:hit_skeet",
+        "stream": false
+      }
+    ]
+  },
+  "hit_pop": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:hit_pop",
+        "stream": false
+      }
+    ]
+  },
+  "hit_click": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:hit_click",
+        "stream": false
+      }
+    ]
+  },
+  "hit_bell": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:hit_bell",
+        "stream": false
+      }
+    ]
+  },
+  "hit_kill": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:hit_kill",
+        "stream": false
+      }
+    ]
+  },
+  "click": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:click",
+        "stream": false
+      }
+    ]
+  },
+  "gui_anime": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_anime",
+        "stream": false
+      }
+    ]
+  },
+  "gui_bg": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_bg",
+        "stream": true
+      }
+    ]
+  },
+  "gui_bind": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_bind",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean2_disable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean2_disable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean2_enable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean2_enable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean3_disable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean3_disable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean3_enable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean3_enable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean_disable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean_disable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_boolean_enable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_boolean_enable",
+        "stream": false
+      }
+    ]
+  },
+  "gui_category": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_category",
+        "stream": false
+      }
+    ]
+  },
+  "gui_clear": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_clear",
+        "stream": false
+      }
+    ]
+  },
+  "gui_click": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_click",
+        "stream": false
+      }
+    ]
+  },
+  "gui_close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_close",
+        "stream": false
+      }
+    ]
+  },
+  "gui_hover": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_hover",
+        "stream": false
+      }
+    ]
+  },
+  "gui_key_click": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_key_click",
+        "stream": false
+      }
+    ]
+  },
+  "gui_mode_multi": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_mode_multi",
+        "stream": false
+      }
+    ]
+  },
+  "gui_module_close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_module_close",
+        "stream": false
+      }
+    ]
+  },
+  "gui_module_open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_module_open",
+        "stream": false
+      }
+    ]
+  },
+  "gui_multi_close": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_multi_close",
+        "stream": false
+      }
+    ]
+  },
+  "gui_multi_open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_multi_open",
+        "stream": false
+      }
+    ]
+  },
+  "gui_open": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_open",
+        "stream": false
+      }
+    ]
+  },
+  "gui_open_button": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_open_button",
+        "stream": false
+      }
+    ]
+  },
+  "gui_scroll": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_scroll",
+        "stream": false
+      }
+    ]
+  },
+  "gui_slider": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_slider",
+        "stream": false
+      }
+    ]
+  },
+  "gui_theme": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:gui_theme",
+        "stream": false
+      }
+    ]
+  },
+  "guiclose": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:guiclose",
+        "stream": false
+      }
+    ]
+  },
+  "guiopen": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:guiopen",
+        "stream": false
+      }
+    ]
+  },
+  "notify_disable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:notify_disable",
+        "stream": false
+      }
+    ]
+  },
+  "notify_enable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:notify_enable",
+        "stream": false
+      }
+    ]
+  },
+  "notify_type6_disabled": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:notify_type6_disabled",
+        "stream": false
+      }
+    ]
+  },
+  "notify_type6_enabled": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:notify_type6_enabled",
+        "stream": false
+      }
+    ]
+  },
+  "tone_disable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:tone_disable",
+        "stream": false
+      }
+    ]
+  },
+  "tone_enable": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:tone_enable",
+        "stream": false
+      }
+    ]
+  },
+  "fake_loading": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "kuro:fake_loading",
+        "stream": true
+      }
+    ]
+  }
+}

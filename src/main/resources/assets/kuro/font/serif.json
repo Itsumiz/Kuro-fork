@@ -1,0 +1,6 @@
+{
+  "providers": [
+    { "type": "ttf", "file": "kuro:instrument_serif.ttf", "shift": [0, 0], "size": 15.0, "oversample": 16 },
+    { "type": "reference", "id": "minecraft:default" }
+  ]
+}

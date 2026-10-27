@@ -1,0 +1,78 @@
+plugins {
+    id 'net.fabricmc.fabric-loom-remap' version "${loom_version}"
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+loom {
+    mods {
+        "kuro" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        name = 'Fabric'
+        url = 'https://maven.fabricmc.net/'
+    }
+    mavenCentral()
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings loom.officialMojangMappings()
+
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+}
+
+processResources {
+    inputs.property "version", project.version
+
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.encoding = "UTF-8"
+    it.options.release = 21
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    withSourcesJar()
+}
+
+tasks.register('sourcesZip', Zip) {
+    archiveBaseName = project.archives_base_name
+    archiveClassifier = 'src'
+    destinationDirectory = layout.buildDirectory.dir('libs')
+    from(projectDir) {
+        include 'src/**'
+        include 'gradle/**'
+        include '.github/**'
+        include 'build.gradle'
+        include 'settings.gradle'
+        include 'gradle.properties'
+        include 'gradlew'
+        include 'gradlew.bat'
+        include 'build.sh'
+        include 'build.bat'
+        include '.gitignore'
+        include 'README.md'
+        include 'LICENSE'
+    }
+}
+
+assemble.dependsOn('sourcesZip')
