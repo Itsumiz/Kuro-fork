@@ -19,7 +19,7 @@ Windows:
 build.bat
 ```
 
-The build scripts will check for cached Loom assets from local client setups (CLIclient, Open-respect, Respect-Bpp) to build offline without re-downloading Minecraft and Loom mapping files. If no local cache is found, it will run standard Gradle build online.
+The build scripts will check for cached Loom assets from local client setups to build offline without re-downloading Minecraft and Loom mapping files. If no local cache is found, it will run standard Gradle build online.
 
 ### Build with Gradle
 
